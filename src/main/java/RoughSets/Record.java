@@ -42,5 +42,12 @@ public class Record {
         return attr.containsKey(attrName) && attr.get(attrName).equals(attrValue);
     }
 
-
+    @Override
+    public String toString() {
+        return "Record{" +
+                "id='" + id + '\'' +
+                ", attr=" + attr +
+                ", classification='" + classification + '\'' +
+                '}';
+    }
 }

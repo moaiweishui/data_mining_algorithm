@@ -1,0 +1,2 @@
+# data_mining_algorithm
+一些基本数据挖掘算法的简单实现
